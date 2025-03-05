@@ -1,4 +1,5 @@
 import Button from './Component/Button'
+import CounterApp from './Component/Counter'
 
 function App() {
   const handleClick = () => {
@@ -10,6 +11,7 @@ function App() {
    <div className="h-screen flex items-center justify-center bg-gray-100">
       <Button name="Click Me" onClick={handleClick} />
     </div>
+    <CounterApp/>
   
     </>
   )
