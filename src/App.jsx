@@ -1,5 +1,6 @@
 import Button from './Component/Button'
 import CounterApp from './Component/Counter'
+import UseEffectAppComponent from './Component/UseEffectAPPComponent'
 
 function App() {
   const handleClick = () => {
@@ -12,6 +13,7 @@ function App() {
       <Button name="Click Me" onClick={handleClick} />
     </div>
     <CounterApp/>
+    <UseEffectAppComponent/>
   
     </>
   )
